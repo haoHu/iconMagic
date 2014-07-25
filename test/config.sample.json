@@ -1,0 +1,27 @@
+{
+	"input" : {
+		"svgRoot" : "./test/svgs/"
+	},
+	"output" : {
+		"fontRoot" : "./test/output/font/",
+		"cssRoot" : "./test/output/css/",
+		"iconPreviewRoot" : "./test/output/"
+	},
+	"meta" : {
+		"author" : "huhao",
+		"css_prefix" : "ficon-"
+	},
+	"font" : {
+		"version" : "1.0",
+		"fontname" : "yunfis",
+		"fontpath" : "./../font/",
+		"fullname" : "Yunfis",
+		"familyname" : "Yunfis",
+		"copyright" : "Copyright (C) 2013 by Yunfis",
+		//"ascent" : 850,
+		//"descent" : 150,
+		"ascent" : 48,
+		"descent" : 2,
+		"weight" : "Normal"
+	}
+}

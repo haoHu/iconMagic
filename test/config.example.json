@@ -1,0 +1,17 @@
+{
+	"algorithm": "growingpacker",//optional 目前只有 growingpacker
+	"input": {
+		"imageRoot" : "./test/images/iconmap/",
+		"format": "png"//optional, 只支持输出PNG格式, 如果是其他格式, 也是以PNG格式输出, 仅仅把后缀改为其他后缀
+	},
+	"output": {
+		"Root" : "./test/output/",//输出的根目录
+		"cssRoot": "./test/output/css/",//required
+		"imageRoot": "./test/output/images/",//optional 相对于 cssRoot 的路径, 默认 "./image/", 最终会变成合并后的的图片路径写在css文件中
+		"styleImgHref" : "../images/",//样式表中引用的图片路径
+		"iconPreviewRoot" : "./test/output/",//图标的预览文件
+		"margin": 16,//optional 合成之后, 图片间的空隙, 默认 0
+		"prefix": "sprite_",//optional 
+		"format": "png",//optional 输出的图片格式
+	}
+}
